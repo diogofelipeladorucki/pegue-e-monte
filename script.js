@@ -1,3 +1,43 @@
+// Dados de inspirações
+const inspirationsData = [
+    {
+        id: 1,
+        title: "Festa no Jardim",
+        description: "Combinação perfeita de mesas cubo brancas e painel redondo.",
+        image: "https://picsum.photos/1600/900?random=300"
+    },
+    {
+        id: 2,
+        title: "Batizado Clássico",
+        description: "Uso de vasos gregos e bandejas espelhadas para sofisticação.",
+        image: "https://picsum.photos/1600/900?random=301"
+    },
+    {
+        id: 3,
+        title: "Aniversário Colorido",
+        description: "Mistura de boleiras coloridas para um tema divertido.",
+        image: "https://picsum.photos/1600/900?random=302"
+    },
+    {
+        id: 4,
+        title: "Casamento Rústico",
+        description: "Painel ripado com estante escada e elementos naturais.",
+        image: "https://picsum.photos/1600/900?random=303"
+    },
+    {
+        id: 5,
+        title: "Chá de Bebê Rosa",
+        description: "Decoração delicada com tons pastéis e detalhes dourados.",
+        image: "https://picsum.photos/1600/900?random=304"
+    },
+    {
+        id: 6,
+        title: "Festa Tropical",
+        description: "Cores vibrantes com elementos naturais e tropicais.",
+        image: "https://picsum.photos/1600/900?random=305"
+    }
+];
+
 // Dados do catálogo
 const catalogData = [
     // Kits Completos (Geralmente únicos)
@@ -68,6 +108,7 @@ let cart = JSON.parse(localStorage.getItem('cart')) || [];
 document.addEventListener('DOMContentLoaded', () => {
     setupFilters();
     renderCatalog(catalogData);
+    renderInspirations();
     setupCart();
 });
 
@@ -557,4 +598,24 @@ function finishOrder() {
     document.getElementById('cart-modal').style.display = "none";
 
     window.open(whatsappUrl, '_blank');
+}
+
+// Função para renderizar inspirações
+function renderInspirations() {
+    const inspirationsGrid = document.getElementById('inspirations-grid');
+    
+    inspirationsData.forEach(inspiration => {
+        const card = document.createElement('div');
+        card.className = 'inspiration-card';
+        
+        card.innerHTML = `
+            <img src="${inspiration.image}" alt="${inspiration.title}" loading="lazy">
+            <div class="inspiration-info">
+                <h3>${inspiration.title}</h3>
+                <p>${inspiration.description}</p>
+            </div>
+        `;
+        
+        inspirationsGrid.appendChild(card);
+    });
 }
