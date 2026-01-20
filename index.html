@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegue e Monte com Encanto</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Quicksand:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-content">
+            <nav class="main-nav">
+                <a href="#catalog">Catálogo</a>
+                <a href="#inspirations">Inspirações</a>
+                <a href="#location">Localização</a>
+            </nav>
+
+            <h1>Pegue e Monte <span class="highlight">com Encanto</span></h1>
+            <p>Decoração prática e linda para sua festa</p>
+
+            <div class="filters-container">
+                <input type="text" id="search-input" placeholder="O que você procura?">
+                <div id="category-buttons" class="category-buttons">
+                    <!-- Buttons will be injected by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <button id="cart-btn" class="cart-floating-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span id="cart-count">0</span>
+        </button>
+
+        <a href="https://wa.me/5581988973733?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20o%20Pegue%20e%20Monte%21"
+            target="_blank" class="whatsapp-support-btn" title="Falar no WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                stroke="none">
+                <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.099-.458.049-.606.136-.135.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+            </svg>
+            Falar no WhatsApp
+        </a>
+    </header>
+
+    <main class="container">
+
+        <!-- Catalog Section -->
+        <div id="catalog" class="catalog">
+            <!-- Content will be injected by JavaScript -->
+        </div>
+
+        <!-- Inspirations Section -->
+        <section id="inspirations" class="section-container">
+            <h2 class="section-title">Inspirações de Montagem</h2>
+            <p class="section-subtitle">Veja o que é possível criar com nossas peças!</p>
+
+            <div class="inspirations-grid">
+                <div class="inspiration-card">
+                    <img src="https://picsum.photos/400/500?random=50" alt="Inspiração 1" loading="lazy">
+                    <div class="inspiration-info">
+                        <h3>Festa no Jardim</h3>
+                        <p>Combinação perfeita de mesas cubo brancas e painel redondo.</p>
+                    </div>
+                </div>
+                <div class="inspiration-card">
+                    <img src="https://picsum.photos/400/500?random=51" alt="Inspiração 2" loading="lazy">
+                    <div class="inspiration-info">
+                        <h3>Batizado Clássico</h3>
+                        <p>Uso de vasos gregos e bandejas espelhadas para sofisticação.</p>
+                    </div>
+                </div>
+                <div class="inspiration-card">
+                    <img src="https://picsum.photos/400/500?random=52" alt="Inspiração 3" loading="lazy">
+                    <div class="inspiration-info">
+                        <h3>Aniversário Colorido</h3>
+                        <p>Mistura de boleiras coloridas para um tema divertido.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section id="location" class="section-container location-section">
+            <h2 class="section-title">Onde Estamos</h2>
+            <div class="location-content">
+                <div class="location-text">
+                    <h3>Ponto de Retirada</h3>
+                    <p class="address-paragraph"><strong>Endereço:</strong> Segunda Travessa Pernambuco, 135<br>Bairro
+                        dos Estados, Camaragibe - PE</p>
+
+                    <p class="steps-intro" style="margin-top: 2rem; margin-bottom: 0.5rem;">Nosso sistema funciona no
+                        modelo <strong>Pegue e Monte</strong>:</p>
+                    <ul style="margin-top: 0;">
+                        <li>1. Você escolhe as peças no site.</li>
+                        <li>2. Agenda a retirada pelo WhatsApp.</li>
+                        <li>3. Retira no nosso endereço, monta sua festa e devolve depois!</li>
+                    </ul>
+                    <a href="https://maps.google.com/?q=Segunda+Travessa+Pernambuco,+135,+Bairro+dos+Estados,+Camaragibe"
+                        target="_blank" class="map-link-btn">Abrir no Google Maps</a>
+                </div>
+                <div class="map-container">
+                    <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="https://maps.google.com/maps?q=-8.026379,-34.971296&z=17&output=embed">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pegue e Monte com Encanto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Seu Carrinho</h2>
+
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items will be here -->
+                <p class="empty-cart-msg">Seu carrinho está vazio.</p>
+            </div>
+
+            <div class="cart-footer">
+                <div class="cart-total">Total: <span id="cart-total-price">R$ 0,00</span></div>
+
+                <form id="checkout-form" class="checkout-form">
+                    <h3>Finalizar Pedido</h3>
+                    <div class="form-group">
+                        <label for="client-name">Nome Completo *</label>
+                        <input type="text" id="client-name" required placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-phone">Celular (WhatsApp) *</label>
+                        <input type="tel" id="client-phone" required placeholder="(81) 99999-9999">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-email">E-mail *</label>
+                        <input type="email" id="client-email" required placeholder="seu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-address">Endereço Completo *</label>
+                        <textarea id="client-address" required placeholder="Rua, Número, Bairro..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-pickup-date">Data de Retirada *</label>
+                        <input type="date" id="client-pickup-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-return-date">Data de Devolução *</label>
+                        <input type="date" id="client-return-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-referral">Onde nos conheceu? *</label>
+                        <select id="client-referral" required
+                            style="width: 100%; padding: 14px; border: 2px solid #eee; border-radius: 12px; font-family: var(--font-body);">
+                            <option value="">Selecione...</option>
+                            <option value="Anúncio">Anúncio</option>
+                            <option value="Redes Sociais">Redes Sociais</option>
+                            <option value="Indicação">Indicação</option>
+                            <option value="Site">Site</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-obs">Observações (Opcional)</label>
+                        <textarea id="client-obs" placeholder="Algum detalhe extra?"></textarea>
+                    </div>
+                    <button type="submit" class="checkout-btn">Finalizar no WhatsApp 📱</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
