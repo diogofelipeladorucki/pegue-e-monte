@@ -1,3 +1,25 @@
+// Dados de locais de retirada
+const locationsData = [
+    {
+        id: 1,
+        name: "Ponto de Retirada - Camaragibe",
+        address: "Segunda Travessa Pernambuco, 135",
+        neighborhood: "Bairro dos Estados",
+        city: "Camaragibe - PE",
+        coordinates: "-8.026379,-34.971296",
+        hours: "Segunda a Sexta: 8h às 18h | Sábado: 8h às 12h"
+    },
+    {
+        id: 2,
+        name: "Ponto de Retirada - Recife",
+        address: "Rua das Flores, 456",
+        neighborhood: "Boa Viagem",
+        city: "Recife - PE",
+        coordinates: "-8.113,-34.896",
+        hours: "Segunda a Sexta: 9h às 17h"
+    }
+];
+
 // Dados de inspirações
 const inspirationsData = [
     {
@@ -109,7 +131,9 @@ document.addEventListener('DOMContentLoaded', () => {
     setupFilters();
     renderCatalog(catalogData);
     renderInspirations();
+    renderLocations();
     setupCart();
+    updateFooterYear();
 });
 
 let currentCategory = 'Todos';
@@ -618,4 +642,106 @@ function renderInspirations() {
         
         inspirationsGrid.appendChild(card);
     });
+}
+
+// Função para renderizar locais
+let currentLocationIndex = 0;
+
+function renderLocations() {
+    const locationSection = document.querySelector('#location .location-content');
+    locationSection.innerHTML = '';
+    
+    // Criar container do carrossel
+    const carouselWrapper = document.createElement('div');
+    carouselWrapper.className = 'locations-carousel-wrapper';
+    
+    const carouselContainer = document.createElement('div');
+    carouselContainer.className = 'locations-carousel';
+    carouselContainer.id = 'locations-carousel';
+    
+    locationsData.forEach((location, index) => {
+        const locationCard = document.createElement('div');
+        locationCard.className = `location-card ${index === 0 ? 'active' : ''}`;
+        
+        const googleMapsUrl = `https://maps.google.com/?q=${location.coordinates}`;
+        const embedUrl = `https://maps.google.com/maps?q=${location.coordinates}&z=17&output=embed`;
+        
+        locationCard.innerHTML = `
+            <div class="location-text">
+                <h3>${location.name}</h3>
+                <p class="address-paragraph">
+                    <strong>Endereço:</strong> ${location.address}<br>
+                    ${location.neighborhood}, ${location.city}
+                </p>
+                <p><strong>Horário:</strong> ${location.hours}</p>
+                
+                <p class="steps-intro" style="margin-top: 2rem; margin-bottom: 0.5rem;">Nosso sistema funciona no modelo <strong>Pegue e Monte</strong>:</p>
+                <ul style="margin-top: 0;">
+                    <li>1. Você escolhe as peças no site.</li>
+                    <li>2. Agenda a retirada pelo WhatsApp.</li>
+                    <li>3. Retira no nosso endereço, monta sua festa e devolve depois!</li>
+                </ul>
+                
+                <a href="${googleMapsUrl}" target="_blank" class="map-link-btn">Abrir no Google Maps</a>
+            </div>
+            <div class="map-container">
+                <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="${embedUrl}"></iframe>
+            </div>
+        `;
+        
+        carouselContainer.appendChild(locationCard);
+    });
+    
+    // Adicionar setas se houver mais de um local
+    if (locationsData.length > 1) {
+        const prevArrow = document.createElement('button');
+        prevArrow.className = 'carousel-arrow prev';
+        prevArrow.innerHTML = '&#10094;';
+        prevArrow.onclick = () => navigateLocation(-1);
+        
+        const nextArrow = document.createElement('button');
+        nextArrow.className = 'carousel-arrow next';
+        nextArrow.innerHTML = '&#10095;';
+        nextArrow.onclick = () => navigateLocation(1);
+        
+        carouselWrapper.appendChild(prevArrow);
+        carouselWrapper.appendChild(carouselContainer);
+        carouselWrapper.appendChild(nextArrow);
+    } else {
+        carouselWrapper.appendChild(carouselContainer);
+    }
+    
+    locationSection.appendChild(carouselWrapper);
+}
+
+function navigateLocation(direction) {
+    currentLocationIndex += direction;
+    
+    if (currentLocationIndex < 0) {
+        currentLocationIndex = locationsData.length - 1;
+    } else if (currentLocationIndex >= locationsData.length) {
+        currentLocationIndex = 0;
+    }
+    
+    goToLocation(currentLocationIndex);
+}
+
+function goToLocation(index) {
+    currentLocationIndex = index;
+    
+    // Fade out todos os cards
+    document.querySelectorAll('.location-card').forEach(card => {
+        card.classList.remove('active');
+    });
+    
+    // Fade in o card ativo após um delay
+    setTimeout(() => {
+        document.querySelectorAll('.location-card')[index].classList.add('active');
+    }, 300);
+}
+
+// Função para atualizar o ano no footer
+function updateFooterYear() {
+    const currentYear = new Date().getFullYear();
+    document.getElementById('footer-copyright').textContent = `© ${currentYear} Pegue e Monte com Encanto. Todos os direitos reservados.`;
 }
