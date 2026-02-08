@@ -145,11 +145,746 @@ const catalogData = [
     maxQuantity: 1,
   },
 
-  // Peças Avulsas (Podem ter mais unidades)
+  // Paineis
+    {
+    id: 37,
+    name: "Princesa Tiana - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/285993072/205128-princesa-tiana-1-hwhulr9k2v.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "princesa", "tiane", "disney", "verde"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+{
+    id: 40,
+    name: "Bob Esponja - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/278098331/205030-bob-esponja-uzt0ze5477.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "bob esponja", "verde"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+{
+    id: 41,
+    name: "Roblox - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/339660756/painel-de-mesa-roblox-sublimado-3d-6d65c0b4-nx637yvtet.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Roblox", "menino", "jogo", "azul"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+  {
+    id: 42,
+    name: "Roblox - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/277937884/204994-roblox-rosa-t9cz2uch5c.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Roblox", "menina", "jogo", "Rosa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+    
+  {
+    id: 43,
+    name: "Bluey - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/357059902/painel-de-mesa-bluey-sublimado-3d-d2179f64-23td6autf6.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Bluey", "azul", "menina", "jogo"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+    
+  {
+    id: 44,
+    name: "Barbie - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/230382552b986619136.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Barbie", "rosa", "menina", "boneca"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+  
+  {
+    id: 45,
+    name: "Bobbie Goods - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/364399511/painel-de-mesa-bobbie-goods-sublimado-3d-9ff9d894-x7iml38li8.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Bobbie Goods", "menina", "menino"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+  
+  {
+    id: 46,
+    name: "Batman - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/248647614466b7e3baf.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Batman", "preto","super heroi"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+  {
+    id: 47,
+    name: "Branca de neve - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/268920531bead8b76d8.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Branca de neve", "branca", "Disney", "princesa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+    {
+    id: 48,
+    name: "Baby shark - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/248763358bbc3d39053.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Baby Shark", "azul", "marinho", "peixe"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+      {
+    id: 49,
+    name: "Magali - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/23038038156ec16192a.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Magali", "amarela", "menina"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+{
+    id: 50,
+    name: "Jardim - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/2490250300b5d9f10bf.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Jardim", "verde", "natureza"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+{
+    id: 51,
+    name: "Toy Story - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/369998691/painel-de-mesa-toy-story-sublimado-3d-5d36c765-rhp8xiejuh.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Toy Story", "menino"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+{
+    id: 52,
+    name: "Guerreiras do K pop  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/372972226/painel-de-mesa-guerreiras-do-k-pop-sublimado-3d-5be947db-bsv0ujmtt9.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Guerreiras do K pop", "mulheres", "k pop"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+{
+    id: 53,
+    name: "Unicórnio  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/369998674/painel-de-mesa-unicornio-sublimado-3d-757e6041-sz660ucoh9.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Unicórnio", "rosa", "fantasia"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+{
+    id: 54,
+    name: "Enaldinho  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/349365312/painel-de-mesa-enaldinho-sublimado-3d-6551e4d1-pj3a5pjffi.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Enaldinho", "vermelho", "youtuber"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+{
+    id: 55  ,
+    name: "Os Vingadores  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/24874106407a63dc19e.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Os Vingadores", "super heróis", "marvel"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+ 
+{
+    id: 56  ,
+    name: "Homem aranha  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/2303790745b52b6a153.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Homem aranha", "super heróis", "marvel"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  }, 
+ 
+{
+    id: 57  ,
+    name: "Frutas cute  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/24870084084e80e9991.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Frutas cute", "cute", "festa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  }, 
+  
+  {
+    id: 58  ,
+    name: "Fazendinha  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/277940623/205022-fazendinha-virj06s794.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Fazendinha", "fazenda", "animais"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  }, 
+  
+  {
+    id: 59  ,
+    name: "Frozen  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/369449595/painel-de-mesa-frozen-sublimado-3d-19803d2a-1xs4jdukd4.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Frozen", "disney", "princesa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  }, 
+
+  {
+    id: 60  ,
+    name: "Free fire  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/2303868472894cbf4cc.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Free fire", "jogo", "gamer"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+  
+  {
+    id: 61  ,
+    name: "Os aventureiros  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/369449620/painel-de-mesa-os-aventureiros-sublimado-3d-32e2c470-7pvtkkio9x.png  "
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Os aventureiros", "super heróis", "lucas neto", "youtuber", "aventureiro"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+  {
+    id: 62  ,
+    name: "Os rosas  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/363395706/painel-de-mesa-os-rosas-sublimado-3d-ed202b91-4ez12u9uzu.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Os rosas", "youtuber"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+ {
+    id: 63  ,
+    name: "O maior pintor do mundo  - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/365799244/painel-de-mesa-o-maior-pintor-do-mundo-sublimado-3d-69544404-9fllctov3o.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "O maior pintor do mundo", "biblico"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+ {
+    id: 64  ,
+    name: "Super mario - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/372972176/painel-de-mesa-super-mario-sublimado-3d-88da47c3-a8sfesq9w2.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Super mario", "jogo", "video game"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+  {
+    id: 65  ,
+    name: "Stitch - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/265435217ddc2ecb37f.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Stitch", "disney", "azul", "extraterrestre"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+    {
+    id: 66  ,
+    name: "Stitch - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/23037752298d918477e.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Stitch", "disney", "azul", "extraterrestre"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+    {
+    id: 67  ,
+    name: "Sonic - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/2303863205601926bb7.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Sonic", "jogo", "video game"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+ {
+    id: 68  ,
+    name: "Safari - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/2579537638279028b5c.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Safari", "natureza", "animais"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+ {
+    id: 69  ,
+    name: "Minecraft - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/315671692/205478-minecraft-nvma61lfut.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Minecraft", "jogo", "video game"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+  {
+    id: 70  ,
+    name: "Moana - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/323348381/205656-moana-ptxtynwaek.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Moana", "disney", "princesa", "oceano"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+  {
+    id: 71  ,
+    name: "Minnie - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/230385079e4ec90176a.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Minnie", "disney", "princesa", "rosa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+ {
+    id: 72  ,
+    name: "Minions - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/23038752198e8e4f55e.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Minions", "disney", "amarelo", "filme"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+  
+{
+    id: 73  ,
+    name: "Mulher maravilha - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/2487226559e60f9be9e.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Mulher maravilha", "heroína", "filme"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+ 
+{
+    id: 74  ,
+    name: "Rapunzel (Enrolados) - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/2303811253f1136dfd9.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Rapunzel", "filme", "enrolados", "disney", "princesa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+ {
+    id: 75  ,
+    name: "Rei leão - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/248734370212bdfe735.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Rei leão", "filme", "disney", "animal"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 76  ,
+    name: "Arca de Noé - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2500x2500/2394/2394401/produto/248230001587bf51b75.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Arca de Noé", "biblico", "animais", "cristão"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 77  ,
+    name: "Animais do bosque - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/248743689caf67affe6.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Animais do bosque", "animais", "natureza"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 78  ,
+    name: "As meninas super poderosas - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/265437005a91133cc3b.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "As meninas super poderosas", "super poderosas", "filme", "desenho"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 79  ,
+    name: "Princesas - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/230379086864b79d993.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Princesas", "filme", "desenho", "princesas"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 80  ,
+    name: "Patrulha canina - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/230382147698e025a70.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Patrulha canina", "desenho", "cachorro"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 81  ,
+    name: "Princesa Sofia - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2500x2500/2394/2394401/produto/372972275/painel-de-mesa-princesa-sofia-sublimado-3d-908ac4ad-5s4ony390m.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Princesa Sofia", "filme", "desenho", "princesa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 82  ,
+    name: "Peppa pig - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/230385836c150f21dff.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Peppa pig", "desenho", "porquinha"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 83  ,
+    name: "Carros - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2500x2500/2394/2394401/produto/249025343465beb80c7.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Carros", "filme", "desenho", "carrida"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 84  ,
+    name: "Casa mágica da Gaby - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/230384079c6acfced78.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Casa mágica da Gaby", "filme", "desenho", "casa"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 85  ,
+    name: "Chaves - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/230378313f0f297aa86.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Chaves","desenho", "filme", "chaves"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+     {
+    id: 86  ,
+    name: "Chapeuzinho vermelho - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/26543390488742b71fc.jpg"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Chapeuzinho vermelho","desenho", "filme", "chapeuzinho"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+  
+     {
+    id: 87  ,
+    name: "Capivara - Painel de Mesa",
+    category: "Paineis de Mesa",
+    images: [
+      "https://cdn.awsli.com.br/2394/2394401/produto/372972126/painel-de-mesa-capivara-sublimado-3d-a82db225-08js1o6rry.png"
+    ],
+    description: "Locação de painel de mesa 50 cm, em tecido sublimado de alta qualidade, acompanhado de estrutura de mini arco de mesa redondo.",
+    tags: ["painel de mesa", "Capivara", "animal", "natureza"],
+    price: 20.0,
+    originalPrice: 20.0,
+    maxQuantity: 1,
+  },
+
+
+  // Mesas e Cilindros
+{
+    id: 38,
+    name: "Mesa Cavalete",
+    category: "Mesas e Cilindros",
+    images: [
+      "https://picsum.photos/200/200?random=3",
+      "https://picsum.photos/200/200?random=301",
+      "https://picsum.photos/200/200?random=302",
+    ],
+    description: "Boleira alta em cerâmica rosa bebê.",
+    tags: ["boleira", "rosa", "ceramica", "suporte", "doce"],
+    price: 35.0,
+    originalPrice: 45.0,
+    maxQuantity: 5,
+  },
+  {
+    id: 39,
+    name: "Mesa Arco-Íris",
+    category: "Mesas e Cilindros",
+    images: [
+      "https://picsum.photos/200/200?random=3",
+      "https://picsum.photos/200/200?random=301",
+      "https://picsum.photos/200/200?random=302",
+    ],
+    description: "Boleira alta em cerâmica rosa bebê.",
+    tags: ["boleira", "rosa", "ceramica", "suporte", "doce"],
+    price: 35.0,
+    originalPrice: 45.0,
+    maxQuantity: 5,
+  },
+{
+    id:40,
+    name: "Mesa Trio cilindricos",
+    category: "Mesas e Cilindros",
+    images: [
+      "https://picsum.photos/200/200?random=3",
+      "https://picsum.photos/200/200?random=301",
+      "https://picsum.photos/200/200?random=302",
+    ],
+    description: "Boleira alta em cerâmica rosa bebê.",
+    tags: ["boleira", "rosa", "ceramica", "suporte", "doce"],
+    price: 35.0,
+    originalPrice: 45.0,
+    maxQuantity: 5,
+  },
+
+  // Boleras Bandejas e Jarros (Podem ter mais unidades)
   {
     id: 3,
     name: "Boleira Cerâmica Rosa",
-    category: "Peças Avulsas",
+    category: "Boleras Bandejas e Jarros",
     images: [
       "https://picsum.photos/200/200?random=3",
       "https://picsum.photos/200/200?random=301",
@@ -164,7 +899,7 @@ const catalogData = [
   {
     id: 4,
     name: "Vaso Grego Dourado",
-    category: "Peças Avulsas",
+    category: "Boleras Bandejas e Jarros",
     images: ["https://picsum.photos/200/200?random=4"],
     description: "Par de vasos estilo grego dourado.",
     tags: ["vaso", "dourado", "flor", "luxo", "decoracao"],
@@ -174,7 +909,7 @@ const catalogData = [
   {
     id: 21,
     name: "Bandeja Espelhada",
-    category: "Peças Avulsas",
+    category: "Boleras Bandejas e Jarros",
     images: ["https://picsum.photos/200/200?random=21"],
     description: "Bandeja retangular com fundo espelhado.",
     tags: ["bandeja", "espelho", "prata", "doce", "festa"],
@@ -185,7 +920,7 @@ const catalogData = [
   {
     id: 22,
     name: "Suporte para Doces 3 Andares",
-    category: "Peças Avulsas",
+    category: "Boleras Bandejas e Jarros",
     images: ["https://picsum.photos/200/200?random=22"],
     description: "Estrutura metálica para doces finos.",
     tags: ["suporte", "ferro", "torre", "doce", "mesa"],
@@ -195,7 +930,7 @@ const catalogData = [
   {
     id: 23,
     name: "Vaso Murano Azul",
-    category: "Peças Avulsas",
+    category: "Boleras Bandejas e Jarros",
     images: ["https://picsum.photos/200/200?random=23"],
     description: "Vaso decorativo em vidro tipo Murano.",
     tags: ["vaso", "azul", "vidro", "luxo", "arranjo"],
@@ -206,7 +941,7 @@ const catalogData = [
   {
     id: 24,
     name: "Boleira Madeira Rústica",
-    category: "Peças Avulsas",
+    category: "Boleras Bandejas e Jarros",
     images: ["https://picsum.photos/200/200?random=24"],
     description: "Ideal para festas com tema campestre.",
     tags: ["boleira", "madeira", "rustico", "fazendinha", "suporte"],
@@ -216,7 +951,7 @@ const catalogData = [
   {
     id: 25,
     name: "Personagens Disney Feltro",
-    category: "Peças Avulsas",
+    category: "Boleras Bandejas e Jarros",
     images: ["https://picsum.photos/200/200?random=25"],
     description: "Kit com 4 personagens clássicos em feltro.",
     tags: ["disney", "mickey", "feltro", "personagem", "boneco"],
@@ -224,10 +959,23 @@ const catalogData = [
     maxQuantity: 1,
   },
 
+  // Balões
+{
+    id: 41,
+    name: "Balões desconstruídos",
+    category: "Balões",
+    images: ["https://picsum.photos/200/200?random=35"],
+    description: "Carrinho decorativo para entrada ou doces.",
+    tags: ["carrinho", "gourmet", "branco", "madeira", "movel"],
+    price: 150.0,
+    originalPrice: 190.0,
+    maxQuantity: 1,
+  },
+
   // Estruturas
   {
     id: 5,
-    name: "Painel Redondo 1,5m",
+    name: "Arco Redondo Ferro",
     category: "Estruturas",
     images: ["https://picsum.photos/200/200?random=5"],
     description: "Estrutura desmontável para capas de tecido.",
@@ -238,7 +986,7 @@ const catalogData = [
   },
   {
     id: 6,
-    name: "Mesa Cubo Branca",
+    name: "Mini Arco Romano",
     category: "Estruturas",
     images: ["https://picsum.photos/200/200?random=6"],
     description: "Trio de mesas cubo desmontáveis brancas.",
@@ -248,7 +996,7 @@ const catalogData = [
   },
   {
     id: 31,
-    name: "Painel Romano",
+    name: "Mini Arco de Mesa Romano",
     category: "Estruturas",
     images: ["https://picsum.photos/200/200?random=31"],
     description: "Painel retangular com arco superior.",
